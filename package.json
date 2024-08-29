@@ -1,0 +1,32 @@
+{
+  "name": "lofi-list-api",
+  "version": "0.0.1",
+  "description": "API for LOFI-LIST project to organize your goals or everything",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "LOFI-LIST-API"
+  },
+  "keywords": [
+    "api",
+    "lofi",
+    "list",
+    "organize",
+    "daily",
+    "goals",
+    "projects"
+  ],
+  "author": "Billy Salazar Rios",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.4"
+  }
+}
